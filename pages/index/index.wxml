@@ -1,0 +1,56 @@
+<view class="container">
+  <view class="line">
+    <view class="title">
+      远离不深度思考的拼命勤奋
+    </view>
+    <view class="cover">
+      <image src="../../images/lazy.jpg"></image>
+    </view>
+    <view class="subtitle">
+      很多人沉湎在自我努力的感动中，难以自拔。
+    </view>
+    <view class='footer'>
+      <view class='f-left'>
+        <view class="view">168</view>
+        <view class="num">72</view>
+      </view>
+      <view class="date">09-26</view>
+    </view>
+  </view>
+  <view class="line">
+    <view class="title">
+      请负责的养育，但你并不能决定他的人生
+    </view>
+    <view class="cover">
+      <image src="../../images/family.jpg"></image>
+    </view>
+    <view class="subtitle">
+      你也许以后会最爱自己的孩子，但父母一定是世界上最爱你的人。
+    </view>
+    <view class='footer'>
+      <view class='f-left'>
+        <view class="view">168</view>
+        <view class="num">72</view>
+      </view>
+      <view class="date">09-26</view>
+    </view>
+  </view>
+  <view class="line">
+    <view class="title">
+      请负责的养育，但你并不能决定他的人生
+    </view>
+    <view class="cover">
+      <image src="../../images/family.jpg"></image>
+    </view>
+    <view class="subtitle">
+      你也许以后会最爱自己的孩子，但父母一定是世界上最爱你的人。
+    </view>
+    <view class='footer'>
+      <view class='f-left'>
+        <view class="view">168</view>
+        <view class="num">72</view>
+      </view>
+      <view class="date">09-26</view>
+    </view>
+  </view>
+</view>

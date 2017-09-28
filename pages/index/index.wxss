@@ -1,0 +1,83 @@
+page {
+  background-color: #eee;
+}
+
+.container {
+  font-size: 32rpx;
+  color: #666;
+}
+
+.line {
+  padding: 20rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin-bottom: 10rpx;
+}
+
+.title {
+  font-weight: bold;
+  color: #313131;
+}
+
+.cover {
+  width: 100%;
+  height: 450rpx;
+  margin: 20rpx 0;
+}
+
+.cover image {
+  width: 100%;
+  height: 100%;
+}
+
+.subtitle {
+  font-size: 30rpx;
+}
+
+.date {
+  font-size: 28rpx;
+  /* margin-top: 10rpx; */
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 28rpx;
+  margin-top: 10rpx;
+  height: 64rpx;
+  line-height: 64rpx;
+}
+
+.f-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.f-left view{
+  margin-right: 20rpx;
+}
+
+.view:before{
+  display: inline-block;
+  content: '';
+  width: 32rpx;
+  height: 32rpx;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAEwUlEQVR4Xu3aga0jRQwGYF8FQAVABdABUAFcBXAVABUAFQAVABUcVABUAFTAXQVAB+h7Gp+GfbvJxLtZImUtRTld8jz2//u3Z2bzJO7cntx5/nEAcFTAnSNwSODOC+BogocEDgncOQKHBO68AP63KfB6RLwzAf+PiPh7b0KuLQGJvhcR70fEuxHxVnudyvNFRHj9HhG/RMSv1wTmGgBI8sOI+KQlPU32ZUtwDgQgvTbzATC+j4ifTvxtqXi2BEDSnzW2MxjJYtELq95HLCvGu1cPCh/fNDBGfJ38zhYAfBwRX3alLekfG2OY28I+ioh8JRgAte4PaxZYA8A0ceWJmVGWq3GTlkrLJroKiAoAdPpdp28MYEIgexppWFeTZYD/vDXP4TguAUBH/6KhbwHdGRt7Jz5NDhAa5JvtA1X41ejkGAUA68+bzmlcCdJ51a6xD1AN4tIjkPJ0pBpGAPi0aVuy37ayq25YsMWfhjZnQLVGtY8YwaohZQEQ/hbtFABY+rqV+T/tvcq6wPQNADD+TIicEiqs3wMAAINVoFUDuTKA6A2zvpYAkPzPLShbVIxVtS4xvvgkH8EJas70FJ/Ts4A/GCnjBV/ARhhJAJqvRyDMAdDrXYdXRlUmMP9bS54vCY4YgIxZ6769Yn2gqyYjEwjPpoBOAejZuiTgpaQwj4mKrwRBAtirGhD4slN9VFU9AD1bNGOcrDGyMTmUPd8VIztyAEC1Mea6s1WVAPSar7A1lxz9QV3ZLWn+HCgko3naZS5NjnM++s8ThFc9IQHAlAW2Sh6gf7Vu799rTNlqZG+s6AX9+kmM96cASJR1ez1gC6N7+rdbzNFX9av0zfUtZCCGvjE+A8CfTaO6bXXUTZNL/duSGmtrTC+yedoKALEg2nR6AYBsNFsCkBVwqwBkfC97CawdNz3LtyyBfto99ACWjUGX1LXXWjZBDUzzWmOaKX9bNMFH064fg7lj2mIP0IN6K2Nwur1/aPj9RsgX9AMjZ03QyXY2Qj71l4plg17bAKfJk+jD9n5uK6wSgLCFHHKEVXzZABnRa0dpf4Nl1L9Kfg6AHBECdoA4eZQcoFTDseu6BNDpMZyP6mGsP9s8Sn4JgOlmQQLO5tU9giCyqs5dYPYXre4MsFW9We4vchZPtecuRGxC8liqL1QvRLDqb/OmBqNzFyK5bVb2ekiFeT7IJ88OJ/ciI1di7gPcDLGLLhxnJIJR/hyS5mzt1Tr/kieboVusEQCyL2DQ0VQZG5XVakiJTc8dKqLCePor3ViPApCL2NfTFqNrsqj2hoEeOvQVElWZSh/rYhy+y7gEgIwGcxZIPZsUdLY3EHNPpsjrojgqACQQ/QWm/1t7pT1CN5YlLtG8ZdIwsV66MVoDwBIQGACG0VMdYVMwNM18ONpPinLiucAWAKQvAaqKvsPnI/F8PI6tc5ZPjUgtH4/3t0qAJcFNwN0SgExMaSYY05/B+E7uAeaAkPTcFZrxqKq8qpNiFvhrANAvJJn+xw7AyYeYS5WQvyDJH1aUtH2uzK4hgdE1r7EPuGTt/3z32hVQDmyvPzwA2AvpW13nqIBbZWavuI4K2AvpW13nqIBbZWavuI4K2AvpW13nqIBbZWavuP4FjcEmv3bbsDUAAAAASUVORK5CYII=') center center no-repeat;
+  background-size: 100% 100%;
+  vertical-align: middle;
+  margin-right: 10rpx;
+  margin-top: -8rpx;
+}
+
+
+.num:before{
+  display: inline-block;
+  content: '';
+  width: 32rpx;
+  height: 32rpx;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADTUlEQVR4Xu2aXU7jMBDHPana1+UGW06wcIJlTwA9wRYptvq25QTACShvlR2J7gm2nGC7J6CcgB4BXlvJsxqUoCiNY1ORL2o/VY0dz/w8djx/G9ieF9hz/5kH4CNgzwn4KeASAGEYngZBcORStyl1tNbLKIrubfYURgDnnJy+A4BWOZ84jYjLTqczmE6nKxMII4DhcHjQ7XafAODARrHJzxHxebPZHM5ms+c8O40AhBAzxtjPuNEjY+xKa537kqYBCIKABu2KMfYttu23lHL4XgAYN3hZr9d9E8GmOZ/YQxHc6/Uo9L/Qf1LK3MHO/TMMw5MgCP7a6DXV+cSudBRrrX9EUbTI2uwC4FpKSeHUuiKEILsvyXAPwEeAnwJ+DfCLoP8K+M+g3wf4jVCGgN8J5u1vM7mAdSsc6wY3AHDCGFsh4kAptSzaOwshLhFxTHUAYCKlvC6qT30AwB/GWB8RaS5fOPRRzVaYc/6QFk1sOTjnfAgAd2mHEfFcKUUp+FbJ0yZI7FBKHVsglw9gNBr1tdZPWUNMyQfV45wvAOB7BsA/pRRF0FbJROTb8yAIDovUnsqSISFEoh28GYeIx6YQzYgtr20Q8VYp9TolsiUO/4fs/6YcP6lXJQAy/CZloFGBoTpx1NAa8SpWMMZeSHS1jGZaoaI2F1LKSe1TIDEgHqUzRJzbFidqE8/rM/q92WzmLorTe/uoLAKKRqHOZx6AV4S8JFb+PqDOOW7r268Bfg3wa4BfA/zBiD8Z2uFoLJ3iuuTdts9RXc/TOoUpdTbeD+CcrwDga5yqjpVSt3U5sku/nPNfpDTFbR+llLm3XIouSFCmRhJUUkjqMl412cXIbBsAWNiksVSuT5JaroACAH2SzlLvH0gp53k2Ft4REkJk8/yP8LPwHYg4U0qdF1UyCSSGNoW6gfWaHMlRADAGgNPSvY87cIEghCBBJbkCs2UaIt4j4iTvPDBd2QqgKqezQqkLhI+wrTEAyJk6IDQKQB0QGgegagiNBFAlhMYCqApCowFUAaHxAMqG0AoAZUJoDYCyILQKgAGC8VjdZafYOgA5EKyHpEUgWgmAHIrvDBzZTohtUdBaADbHXJ97AK6kPms9HwGfdWRd/dr7CPgPsZLsX2m0kNsAAAAASUVORK5CYII=') center center no-repeat;
+  background-size: 100% 100%;
+  vertical-align: middle;
+  margin-right: 10rpx;
+  margin-top: -8rpx;
+}
